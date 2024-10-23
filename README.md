@@ -27,44 +27,10 @@ Used VGG19, a deep convolutional neural network architecture pre-trained on the 
 - Dense (ReLU) + Dropout
 - Output (Softmax) for 4 classes
 
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/covid19_detection.git
-   cd covid19_detection
-   ```
-
-2. Install the required packages:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Download the dataset from [here](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database/data).
-
-## Usage
-
-1. **Train the model**:
-
-   ```bash
-   python src/train_model.py
-   ```
-
-2. **Evaluate the model**:
-
-   ```bash
-   python src/evaluate_model.py
-   ```
-
-3. **Predict on new data**:
-   ```bash
-   python src/predict.py --input image.png
-   ```
+Download the dataset from [here](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database/data).
 
 ## Results
 
-The model achieved **92.56% accuracy** on the test set. Below are some predictions:
+The model achieved **92.56% accuracy** on the test set. Below is the confusion matrix:
 
 ![Prediction Example](/confusion_mat.png)
