@@ -1,8 +1,6 @@
-# Covid-19 Chest X-Ray Detection using CNN
+# Covid-19 Chest X-Ray Classification
 
-This project aims to detect Covid-19 from chest X-ray images using a Deep Convolutional Neural Network. The model architecture leverages pre-trained weights from VGG19 and fine-tunes it to achieve accurate multi-class classification.
-
-![Sample X-ray Images](data/COVID-19_Radiography_Dataset/COVID/images/COVID-530.png)
+This project aims to detect classify chest X-ray images using a Deep Convolutional Neural Network. The model architecture uses pre-trained weights from VGG19 and fine-tunes it to achieve accurate multi-class classification.
 
 ## Dataset
 
@@ -15,9 +13,7 @@ The dataset is sourced from the [Covid19 Radiography Database](https://www.kaggl
 
 ## Project Structure
 
-- **data**: Folder for dataset or link to download it
 - **notebooks**: Jupyter notebooks used for exploration and initial experiments
-- **src**: Scripts for model training and evaluation
 - **model**: Model weights and checkpoints
 
 ## Model
@@ -69,6 +65,6 @@ Used VGG19, a deep convolutional neural network architecture pre-trained on the 
 
 ## Results
 
-The model achieved **X% accuracy** on the test set. Below are some predictions:
+The model achieved **92.56% accuracy** on the test set. Below are some predictions:
 
 ![Prediction Example](/confusion_mat.png)
